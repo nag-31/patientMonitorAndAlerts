@@ -1,0 +1,1388 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "username": "rani",
+      "password": "doctor"
+    },
+    {
+      "id": 2,
+      "username": "sita",
+      "password": "doctor"
+    }
+  ],
+  "isLogged": {
+    "log": "false"
+  },
+  "patients": [
+    {
+      "id": 2,
+      "name": "John Johnson",
+      "age": 80,
+      "gender": "Female",
+      "medicalHistory": "Anxiety",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": "110",
+        "bloodPressure": "135/62",
+        "temperature": "96",
+        "respiratoryRate": 19
+      }
+    },
+    {
+      "id": 3,
+      "name": "James Harris",
+      "age": 37,
+      "gender": "Female",
+      "medicalHistory": "Allergies",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 87,
+        "bloodPressure": "133/63",
+        "temperature": 98.4,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 4,
+      "name": "Susan Allen",
+      "age": 18,
+      "gender": "Female",
+      "medicalHistory": "Depression",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 104,
+        "bloodPressure": "119/76",
+        "temperature": 97.7,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 5,
+      "name": "Linda Martinez",
+      "age": 57,
+      "gender": "Female",
+      "medicalHistory": "Asthma",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 93,
+        "bloodPressure": "118/72",
+        "temperature": 98.3,
+        "respiratoryRate": 12
+      }
+    },
+    {
+      "id": 6,
+      "name": "Michael Hall",
+      "age": 39,
+      "gender": "Male",
+      "medicalHistory": "High Cholesterol",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 69,
+        "bloodPressure": "134/62",
+        "temperature": 97.3,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 7,
+      "name": "Robert Taylor",
+      "age": 27,
+      "gender": "Male",
+      "medicalHistory": "High Cholesterol",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 101,
+        "bloodPressure": "115/63",
+        "temperature": 98,
+        "respiratoryRate": 13
+      }
+    },
+    {
+      "id": 8,
+      "name": "Karen Lewis",
+      "age": 81,
+      "gender": "Male",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 65,
+        "bloodPressure": "111/81",
+        "temperature": 96.8,
+        "respiratoryRate": 14
+      }
+    },
+    {
+      "id": 9,
+      "name": "Mary Rodriguez",
+      "age": 84,
+      "gender": "Male",
+      "medicalHistory": "Asthma",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 109,
+        "bloodPressure": "114/62",
+        "temperature": 98,
+        "respiratoryRate": 13
+      }
+    },
+    {
+      "id": 10,
+      "name": "David Clark",
+      "age": 34,
+      "gender": "Male",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 112,
+        "bloodPressure": "103/69",
+        "temperature": 97.4,
+        "respiratoryRate": 17
+      }
+    },
+    {
+      "id": 12,
+      "name": "Patricia White",
+      "age": 31,
+      "gender": "Male",
+      "medicalHistory": "High Cholesterol",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 86,
+        "bloodPressure": "127/61",
+        "temperature": 98.5,
+        "respiratoryRate": 17
+      }
+    },
+    {
+      "id": 13,
+      "name": "Joseph Baker",
+      "age": 26,
+      "gender": "Female",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 119,
+        "bloodPressure": "111/84",
+        "temperature": 98.2,
+        "respiratoryRate": 14
+      }
+    },
+    {
+      "id": 14,
+      "name": "Betty Martin",
+      "age": 66,
+      "gender": "Female",
+      "medicalHistory": "Allergies",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 86,
+        "bloodPressure": "112/82",
+        "temperature": 97.3,
+        "respiratoryRate": 14
+      }
+    },
+    {
+      "id": 15,
+      "name": "Jane Scott",
+      "age": 73,
+      "gender": "Male",
+      "medicalHistory": "High Cholesterol",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 104,
+        "bloodPressure": "116/73",
+        "temperature": 97.4,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 16,
+      "name": "Charles Lee",
+      "age": 46,
+      "gender": "Male",
+      "medicalHistory": "Migraine",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 74,
+        "bloodPressure": "136/84",
+        "temperature": 97.3,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 17,
+      "name": "William Anderson",
+      "age": 43,
+      "gender": "Male",
+      "medicalHistory": "Depression",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 119,
+        "bloodPressure": "134/67",
+        "temperature": 97.9,
+        "respiratoryRate": 17
+      }
+    },
+    {
+      "id": 18,
+      "name": "Donna Smith",
+      "age": 55,
+      "gender": "Male",
+      "medicalHistory": "Hypertension",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 68,
+        "bloodPressure": "113/78",
+        "temperature": 97,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 19,
+      "name": "Richard Turner",
+      "age": 19,
+      "gender": "Female",
+      "medicalHistory": "High Cholesterol",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 75,
+        "bloodPressure": "140/77",
+        "temperature": 98.3,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 20,
+      "name": "Nancy Young",
+      "age": 78,
+      "gender": "Male",
+      "medicalHistory": "Arthritis",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 69,
+        "bloodPressure": "124/60",
+        "temperature": 97.4,
+        "respiratoryRate": 13
+      }
+    },
+    {
+      "id": 21,
+      "name": "Thomas Wilson",
+      "age": 52,
+      "gender": "Male",
+      "medicalHistory": "Migraine",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 103,
+        "bloodPressure": "102/69",
+        "temperature": 97.9,
+        "respiratoryRate": 14
+      }
+    },
+    {
+      "id": 22,
+      "name": "John Johnson",
+      "age": 62,
+      "gender": "Male",
+      "medicalHistory": "Hypertension",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 76,
+        "bloodPressure": "116/60",
+        "temperature": 97.5,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 23,
+      "name": "James Harris",
+      "age": 89,
+      "gender": "Male",
+      "medicalHistory": "Hypertension",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 63,
+        "bloodPressure": "101/74",
+        "temperature": 98.3,
+        "respiratoryRate": 14
+      }
+    },
+    {
+      "id": 24,
+      "name": "Susan Allen",
+      "age": 21,
+      "gender": "Male",
+      "medicalHistory": "Anxiety",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 119,
+        "bloodPressure": "132/73",
+        "temperature": 98.6,
+        "respiratoryRate": 12
+      }
+    },
+    {
+      "id": 25,
+      "name": "Linda Martinez",
+      "age": 77,
+      "gender": "Female",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 93,
+        "bloodPressure": "133/89",
+        "temperature": 98.3,
+        "respiratoryRate": 19
+      }
+    },
+    {
+      "id": 26,
+      "name": "Michael Hall",
+      "age": 72,
+      "gender": "Female",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 106,
+        "bloodPressure": "101/65",
+        "temperature": 97.8,
+        "respiratoryRate": 12
+      }
+    },
+    {
+      "id": 27,
+      "name": "Robert Taylor",
+      "age": 35,
+      "gender": "Male",
+      "medicalHistory": "Anxiety",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 93,
+        "bloodPressure": "139/90",
+        "temperature": 97.6,
+        "respiratoryRate": 12
+      }
+    },
+    {
+      "id": 28,
+      "name": "Karen Lewis",
+      "age": 68,
+      "gender": "Male",
+      "medicalHistory": "Arthritis",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 68,
+        "bloodPressure": "128/73",
+        "temperature": 98.5,
+        "respiratoryRate": 12
+      }
+    },
+    {
+      "id": 29,
+      "name": "Mary Rodriguez",
+      "age": 53,
+      "gender": "Female",
+      "medicalHistory": "Depression",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 77,
+        "bloodPressure": "137/89",
+        "temperature": 98.4,
+        "respiratoryRate": 17
+      }
+    },
+    {
+      "id": 30,
+      "name": "David Clark",
+      "age": 77,
+      "gender": "Female",
+      "medicalHistory": "Anxiety",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 120,
+        "bloodPressure": "138/80",
+        "temperature": 98.5,
+        "respiratoryRate": 17
+      }
+    },
+    {
+      "id": 31,
+      "name": "Lisa Brown",
+      "age": 20,
+      "gender": "Female",
+      "medicalHistory": "Anxiety",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 93,
+        "bloodPressure": "102/78",
+        "temperature": 98.2,
+        "respiratoryRate": 12
+      }
+    },
+    {
+      "id": 32,
+      "name": "Patricia White",
+      "age": 81,
+      "gender": "Female",
+      "medicalHistory": "Arthritis",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 89,
+        "bloodPressure": "139/89",
+        "temperature": 97.5,
+        "respiratoryRate": 17
+      }
+    },
+    {
+      "id": 33,
+      "name": "Joseph Baker",
+      "age": 86,
+      "gender": "Female",
+      "medicalHistory": "Depression",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 70,
+        "bloodPressure": "103/78",
+        "temperature": 97.8,
+        "respiratoryRate": 19
+      }
+    },
+    {
+      "id": 34,
+      "name": "Betty Martin",
+      "age": 26,
+      "gender": "Male",
+      "medicalHistory": "Depression",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 111,
+        "bloodPressure": "137/64",
+        "temperature": 97.3,
+        "respiratoryRate": 19
+      }
+    },
+    {
+      "id": 35,
+      "name": "Jane Scott",
+      "age": 82,
+      "gender": "Female",
+      "medicalHistory": "Anxiety",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 86,
+        "bloodPressure": "104/81",
+        "temperature": 97.4,
+        "respiratoryRate": 20
+      }
+    },
+    {
+      "id": 36,
+      "name": "Charles Lee",
+      "age": 39,
+      "gender": "Male",
+      "medicalHistory": "Hypertension",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 75,
+        "bloodPressure": "126/77",
+        "temperature": 98.3,
+        "respiratoryRate": 16
+      }
+    },
+    {
+      "id": 37,
+      "name": "William Anderson",
+      "age": 31,
+      "gender": "Male",
+      "medicalHistory": "Allergies",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 115,
+        "bloodPressure": "117/68",
+        "temperature": 96.8,
+        "respiratoryRate": 16
+      }
+    },
+    {
+      "id": 38,
+      "name": "Donna Smith",
+      "age": 52,
+      "gender": "Male",
+      "medicalHistory": "Asthma",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 105,
+        "bloodPressure": "130/68",
+        "temperature": 97.7,
+        "respiratoryRate": 17
+      }
+    },
+    {
+      "id": 39,
+      "name": "Richard Turner",
+      "age": 46,
+      "gender": "Male",
+      "medicalHistory": "Asthma",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 109,
+        "bloodPressure": "127/87",
+        "temperature": 98.3,
+        "respiratoryRate": 20
+      }
+    },
+    {
+      "id": 40,
+      "name": "Nancy Young",
+      "age": 52,
+      "gender": "Male",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 82,
+        "bloodPressure": "114/63",
+        "temperature": 97,
+        "respiratoryRate": 13
+      }
+    },
+    {
+      "id": 41,
+      "name": "Thomas Wilson",
+      "age": 88,
+      "gender": "Male",
+      "medicalHistory": "Asthma",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 76,
+        "bloodPressure": "115/62",
+        "temperature": 97.9,
+        "respiratoryRate": 13
+      }
+    },
+    {
+      "id": 42,
+      "name": "John Johnson",
+      "age": 85,
+      "gender": "Male",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 118,
+        "bloodPressure": "126/79",
+        "temperature": 98,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 43,
+      "name": "James Harris",
+      "age": 54,
+      "gender": "Female",
+      "medicalHistory": "Anxiety",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 63,
+        "bloodPressure": "105/78",
+        "temperature": 98.3,
+        "respiratoryRate": 19
+      }
+    },
+    {
+      "id": 44,
+      "name": "Susan Allen",
+      "age": 69,
+      "gender": "Female",
+      "medicalHistory": "Arthritis",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 120,
+        "bloodPressure": "108/63",
+        "temperature": 97.2,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 45,
+      "name": "Linda Martinez",
+      "age": 66,
+      "gender": "Female",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 105,
+        "bloodPressure": "130/75",
+        "temperature": 97.3,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 46,
+      "name": "Michael Hall",
+      "age": 55,
+      "gender": "Male",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 111,
+        "bloodPressure": "128/70",
+        "temperature": 98.4,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 47,
+      "name": "Robert Taylor",
+      "age": 39,
+      "gender": "Female",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 84,
+        "bloodPressure": "112/82",
+        "temperature": 98.2,
+        "respiratoryRate": 13
+      }
+    },
+    {
+      "id": 48,
+      "name": "Karen Lewis",
+      "age": 61,
+      "gender": "Male",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 119,
+        "bloodPressure": "117/88",
+        "temperature": 97.3,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 49,
+      "name": "Mary Rodriguez",
+      "age": 62,
+      "gender": "Male",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 111,
+        "bloodPressure": "139/75",
+        "temperature": 98.2,
+        "respiratoryRate": 19
+      }
+    },
+    {
+      "id": 50,
+      "name": "David Clark",
+      "age": 19,
+      "gender": "Female",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 68,
+        "bloodPressure": "101/73",
+        "temperature": 97.3,
+        "respiratoryRate": 14
+      }
+    },
+    {
+      "id": 51,
+      "name": "Lisa Brown",
+      "age": 81,
+      "gender": "Male",
+      "medicalHistory": "Asthma",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 95,
+        "bloodPressure": "132/64",
+        "temperature": 97.7,
+        "respiratoryRate": 17
+      }
+    },
+    {
+      "id": 52,
+      "name": "Patricia White",
+      "age": 77,
+      "gender": "Female",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 73,
+        "bloodPressure": "127/82",
+        "temperature": 97.1,
+        "respiratoryRate": 14
+      }
+    },
+    {
+      "id": 53,
+      "name": "Joseph Baker",
+      "age": 77,
+      "gender": "Male",
+      "medicalHistory": "Allergies",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 109,
+        "bloodPressure": "120/61",
+        "temperature": 98.4,
+        "respiratoryRate": 19
+      }
+    },
+    {
+      "id": 54,
+      "name": "Betty Martin",
+      "age": 70,
+      "gender": "Female",
+      "medicalHistory": "Hypertension",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 86,
+        "bloodPressure": "111/76",
+        "temperature": 97.2,
+        "respiratoryRate": 16
+      }
+    },
+    {
+      "id": 55,
+      "name": "Jane Scott",
+      "age": 89,
+      "gender": "Male",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 81,
+        "bloodPressure": "132/88",
+        "temperature": 96.9,
+        "respiratoryRate": 13
+      }
+    },
+    {
+      "id": 56,
+      "name": "Charles Lee",
+      "age": 48,
+      "gender": "Male",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 86,
+        "bloodPressure": "138/67",
+        "temperature": 97.4,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 57,
+      "name": "William Anderson",
+      "age": 82,
+      "gender": "Female",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 62,
+        "bloodPressure": "133/81",
+        "temperature": 97.3,
+        "respiratoryRate": 17
+      }
+    },
+    {
+      "id": 58,
+      "name": "Donna Smith",
+      "age": 83,
+      "gender": "Male",
+      "medicalHistory": "Arthritis",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 82,
+        "bloodPressure": "136/64",
+        "temperature": 98.1,
+        "respiratoryRate": 13
+      }
+    },
+    {
+      "id": 59,
+      "name": "Richard Turner",
+      "age": 89,
+      "gender": "Male",
+      "medicalHistory": "Anxiety",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 99,
+        "bloodPressure": "121/64",
+        "temperature": 97.4,
+        "respiratoryRate": 12
+      }
+    },
+    {
+      "id": 60,
+      "name": "Nancy Young",
+      "age": 68,
+      "gender": "Female",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 109,
+        "bloodPressure": "115/62",
+        "temperature": 98.3,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 61,
+      "name": "Thomas Wilson",
+      "age": 85,
+      "gender": "Female",
+      "medicalHistory": "Asthma",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 93,
+        "bloodPressure": "135/84",
+        "temperature": 97.3,
+        "respiratoryRate": 14
+      }
+    },
+    {
+      "id": 62,
+      "name": "John Johnson",
+      "age": 76,
+      "gender": "Male",
+      "medicalHistory": "Anxiety",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 96,
+        "bloodPressure": "133/66",
+        "temperature": 97.3,
+        "respiratoryRate": 17
+      }
+    },
+    {
+      "id": 63,
+      "name": "James Harris",
+      "age": 24,
+      "gender": "Female",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 71,
+        "bloodPressure": "131/83",
+        "temperature": 97,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 64,
+      "name": "Susan Allen",
+      "age": 84,
+      "gender": "Female",
+      "medicalHistory": "Anxiety",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 83,
+        "bloodPressure": "124/67",
+        "temperature": 97.5,
+        "respiratoryRate": 20
+      }
+    },
+    {
+      "id": 65,
+      "name": "Linda Martinez",
+      "age": 51,
+      "gender": "Male",
+      "medicalHistory": "Asthma",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 90,
+        "bloodPressure": "124/75",
+        "temperature": 98.4,
+        "respiratoryRate": 17
+      }
+    },
+    {
+      "id": 66,
+      "name": "Michael Hall",
+      "age": 69,
+      "gender": "Male",
+      "medicalHistory": "Depression",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 60,
+        "bloodPressure": "138/81",
+        "temperature": 97.8,
+        "respiratoryRate": 12
+      }
+    },
+    {
+      "id": 67,
+      "name": "Robert Taylor",
+      "age": 70,
+      "gender": "Female",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 99,
+        "bloodPressure": "121/78",
+        "temperature": 98.1,
+        "respiratoryRate": 13
+      }
+    },
+    {
+      "id": 68,
+      "name": "Karen Lewis",
+      "age": 75,
+      "gender": "Male",
+      "medicalHistory": "High Cholesterol",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 65,
+        "bloodPressure": "115/78",
+        "temperature": 97.1,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 69,
+      "name": "Mary Rodriguez",
+      "age": 51,
+      "gender": "Female",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 109,
+        "bloodPressure": "126/60",
+        "temperature": 97.4,
+        "respiratoryRate": 12
+      }
+    },
+    {
+      "id": 70,
+      "name": "David Clark",
+      "age": 48,
+      "gender": "Male",
+      "medicalHistory": "Depression",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 73,
+        "bloodPressure": "127/86",
+        "temperature": 98.4,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 71,
+      "name": "Lisa Brown",
+      "age": 54,
+      "gender": "Male",
+      "medicalHistory": "Allergies",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 72,
+        "bloodPressure": "139/73",
+        "temperature": 97.5,
+        "respiratoryRate": 13
+      }
+    },
+    {
+      "id": 72,
+      "name": "Patricia White",
+      "age": 76,
+      "gender": "Female",
+      "medicalHistory": "Arthritis",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 103,
+        "bloodPressure": "129/61",
+        "temperature": 98.2,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 73,
+      "name": "Joseph Baker",
+      "age": 28,
+      "gender": "Female",
+      "medicalHistory": "Hypertension",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 109,
+        "bloodPressure": "132/85",
+        "temperature": 97.2,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 74,
+      "name": "Betty Martin",
+      "age": 55,
+      "gender": "Female",
+      "medicalHistory": "High Cholesterol",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 107,
+        "bloodPressure": "140/71",
+        "temperature": 98.1,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 75,
+      "name": "Jane Scott",
+      "age": 31,
+      "gender": "Female",
+      "medicalHistory": "Migraine",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 89,
+        "bloodPressure": "114/63",
+        "temperature": 97.9,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 76,
+      "name": "Charles Lee",
+      "age": 78,
+      "gender": "Male",
+      "medicalHistory": "Arthritis",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 88,
+        "bloodPressure": "100/83",
+        "temperature": 97.2,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 77,
+      "name": "William Anderson",
+      "age": 60,
+      "gender": "Male",
+      "medicalHistory": "High Cholesterol",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 114,
+        "bloodPressure": "123/78",
+        "temperature": 96.9,
+        "respiratoryRate": 19
+      }
+    },
+    {
+      "id": 78,
+      "name": "Donna Smith",
+      "age": 83,
+      "gender": "Female",
+      "medicalHistory": "Depression",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 78,
+        "bloodPressure": "102/79",
+        "temperature": 96.9,
+        "respiratoryRate": 20
+      }
+    },
+    {
+      "id": 79,
+      "name": "Richard Turner",
+      "age": 86,
+      "gender": "Female",
+      "medicalHistory": "Asthma",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 89,
+        "bloodPressure": "101/82",
+        "temperature": 97.3,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 80,
+      "name": "Nancy Young",
+      "age": 66,
+      "gender": "Male",
+      "medicalHistory": "Arthritis",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 101,
+        "bloodPressure": "102/85",
+        "temperature": 97.5,
+        "respiratoryRate": 12
+      }
+    },
+    {
+      "id": 81,
+      "name": "Thomas Wilson",
+      "age": 28,
+      "gender": "Female",
+      "medicalHistory": "Hypertension",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 120,
+        "bloodPressure": "128/76",
+        "temperature": 96.9,
+        "respiratoryRate": 20
+      }
+    },
+    {
+      "id": 83,
+      "name": "James Harris",
+      "age": 71,
+      "gender": "Female",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 105,
+        "bloodPressure": "136/74",
+        "temperature": 98.4,
+        "respiratoryRate": 14
+      }
+    },
+    {
+      "id": 84,
+      "name": "Susan Allen",
+      "age": 57,
+      "gender": "Female",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 67,
+        "bloodPressure": "132/63",
+        "temperature": 97.6,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 85,
+      "name": "Linda Martinez",
+      "age": 74,
+      "gender": "Female",
+      "medicalHistory": "Migraine",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 118,
+        "bloodPressure": "135/90",
+        "temperature": 98,
+        "respiratoryRate": 14
+      }
+    },
+    {
+      "id": 86,
+      "name": "Michael Hall",
+      "age": 64,
+      "gender": "Female",
+      "medicalHistory": "Allergies",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 73,
+        "bloodPressure": "111/87",
+        "temperature": 98,
+        "respiratoryRate": 19
+      }
+    },
+    {
+      "id": 87,
+      "name": "Robert Taylor",
+      "age": 82,
+      "gender": "Female",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 119,
+        "bloodPressure": "110/71",
+        "temperature": 97.7,
+        "respiratoryRate": 16
+      }
+    },
+    {
+      "id": 88,
+      "name": "Karen Lewis",
+      "age": 53,
+      "gender": "Male",
+      "medicalHistory": "Allergies",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 80,
+        "bloodPressure": "124/83",
+        "temperature": 97.4,
+        "respiratoryRate": 18
+      }
+    },
+    {
+      "id": 89,
+      "name": "Mary Rodriguez",
+      "age": 63,
+      "gender": "Male",
+      "medicalHistory": "Hypertension",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 62,
+        "bloodPressure": "117/79",
+        "temperature": 97.8,
+        "respiratoryRate": 17
+      }
+    },
+    {
+      "id": 90,
+      "name": "David Clark",
+      "age": 24,
+      "gender": "Female",
+      "medicalHistory": "High Cholesterol",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 102,
+        "bloodPressure": "113/86",
+        "temperature": 98.3,
+        "respiratoryRate": 14
+      }
+    },
+    {
+      "id": 91,
+      "name": "Lisa Brown",
+      "age": 55,
+      "gender": "Male",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 65,
+        "bloodPressure": "118/74",
+        "temperature": 97.8,
+        "respiratoryRate": 16
+      }
+    },
+    {
+      "id": 92,
+      "name": "Patricia White",
+      "age": 38,
+      "gender": "Female",
+      "medicalHistory": "Arthritis",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 111,
+        "bloodPressure": "119/67",
+        "temperature": 97.6,
+        "respiratoryRate": 19
+      }
+    },
+    {
+      "id": 93,
+      "name": "Joseph Baker",
+      "age": 82,
+      "gender": "Female",
+      "medicalHistory": "Hypertension",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 117,
+        "bloodPressure": "115/83",
+        "temperature": 97.2,
+        "respiratoryRate": 13
+      }
+    },
+    {
+      "id": 94,
+      "name": "Betty Martin",
+      "age": 75,
+      "gender": "Female",
+      "medicalHistory": "Migraine",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 88,
+        "bloodPressure": "110/66",
+        "temperature": 98.6,
+        "respiratoryRate": 19
+      }
+    },
+    {
+      "id": 95,
+      "name": "Jane Scott",
+      "age": 73,
+      "gender": "Female",
+      "medicalHistory": "Diabetes",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 60,
+        "bloodPressure": "124/81",
+        "temperature": 97.3,
+        "respiratoryRate": 14
+      }
+    },
+    {
+      "id": 96,
+      "name": "Charles Lee",
+      "age": 22,
+      "gender": "Male",
+      "medicalHistory": "High Cholesterol",
+      "currentCondition": "Stable",
+      "vitalSigns": {
+        "heartRate": 93,
+        "bloodPressure": "135/65",
+        "temperature": 97.7,
+        "respiratoryRate": 19
+      }
+    },
+    {
+      "id": 97,
+      "name": "William Anderson",
+      "age": 70,
+      "gender": "Female",
+      "medicalHistory": "Asthma",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 116,
+        "bloodPressure": "105/79",
+        "temperature": 97.9,
+        "respiratoryRate": 15
+      }
+    },
+    {
+      "id": 99,
+      "name": "Richard Turner",
+      "age": 72,
+      "gender": "Male",
+      "medicalHistory": "Obesity",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 84,
+        "bloodPressure": "109/89",
+        "temperature": 98.5,
+        "respiratoryRate": 16
+      }
+    },
+    {
+      "id": 100,
+      "name": "Nancy Young",
+      "age": 80,
+      "gender": "Male",
+      "medicalHistory": "Hypertension",
+      "currentCondition": "Critical",
+      "vitalSigns": {
+        "heartRate": 62,
+        "bloodPressure": "126/84",
+        "temperature": 97.6,
+        "respiratoryRate": 20
+      }
+    }
+  ],
+  "threshold": {
+    "heartRate": 80,
+    "systolic": 120,
+    "diastolic": 80,
+    "temperature": 37.5,
+    "respiratoryRate": 18
+  },
+  "thresholds": {
+    "heartRate": {
+      "min": 60,
+      "max": 100
+    },
+    "bloodPressure": {
+      "min": 120,
+      "max": 180
+    },
+    "temperature": {
+      "min": 98.6,
+      "max": 100.4
+    },
+    "respiratoryRate": {
+      "min": 12,
+      "max": 20
+    }
+  }
+}
