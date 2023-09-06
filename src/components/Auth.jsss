@@ -1,0 +1,32 @@
+const jwt = require('jsonwebtoken');
+const bcrypt = require('bcrypt');
+const secretKey = '9a3b4c1e-2d6f-4a8c-b9e7-5f0d1a3b2c6e'; // Change this to a strong secret key
+
+export const isAuthenticated = () => {
+  const token = localStorage.getItem('token');
+  if (!token) {
+    return false;
+  }
+
+  try {
+    jwt.verify(token, secretKey);
+    return true;
+  } catch (error) {
+    return false;
+  }
+};
+
+export const login = (username, password) => {
+  // Simulate login with username and password
+  if (username === 'user' && password === 'password') {
+    const user = { username: 'user' };
+    const token = jwt.sign(user, secretKey);
+    localStorage.setItem('token', token);
+    return true;
+  }
+  return false;
+};
+
+export const logout = () => {
+  localStorage.removeItem('token');
+};
